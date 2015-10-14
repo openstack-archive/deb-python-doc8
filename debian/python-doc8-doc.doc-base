@@ -1,0 +1,9 @@
+Document: python-doc8-doc
+Title: doc8 Documentation
+Author: N/A
+Abstract: Sphinx documentation for doc8
+Section: Programming/Python
+
+Format: HTML
+Index: /usr/share/doc/python-doc8-doc/html/index.html
+Files: /usr/share/doc/python-doc8-doc/html/*

@@ -1,0 +1,5 @@
+python-doc8 (0.6.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #801750)
+
+ -- Thomas Goirand <zigo@debian.org>  Wed, 14 Oct 2015 09:01:55 +0200

@@ -1,0 +1,73 @@
+Source: python-doc8
+Section: python
+Priority: optional
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-all,
+               python-setuptools,
+               python-sphinx,
+               python3-all,
+               python3-setuptools,
+Build-Depends-Indep: python-chardet,
+                     python-docutils,
+                     python-hacking,
+                     python-nose,
+                     python-oslosphinx,
+                     python-restructuredtext-lint,
+                     python-six,
+                     python-stevedore,
+                     python-testtools,
+                     python3-chardet,
+                     python3-docutils,
+                     python3-restructuredtext-lint,
+                     python3-six,
+                     python3-stevedore,
+Standards-Version: 3.9.6
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-doc8.git
+Vcs-Git: git://anonscm.debian.org/openstack/python-doc8.git
+Homepage: http://git.openstack.org/cgit/stackforge/doc8
+
+Package: python-doc8
+Architecture: all
+Depends: python-chardet,
+         python-docutils,
+         python-restructuredtext-lint,
+         python-six,
+         python-stevedore,
+         ${misc:Depends},
+         ${python:Depends},
+Suggests: python-doc8-doc,
+Description: style checker for Sphinx (or other) RST documentation - Python 2.x
+ Doc8 is an opinionated style checker for rst (with basic support for plain
+ text) styles of documentation.
+ .
+ This package contains the Python 2.x module.
+
+Package: python3-doc8
+Architecture: all
+Depends: python3-chardet,
+         python3-docutils,
+         python3-restructuredtext-lint,
+         python3-six,
+         python3-stevedore,
+         ${misc:Depends},
+         ${python3:Depends},
+Suggests: python-doc8-doc,
+Description: Style checker for Sphinx (or other) RST documentation - Python 3.x
+ Doc8 is an opinionated style checker for rst (with basic support for plain
+ text) styles of documentation.
+ .
+ This package contains the Python 3.x module.
+
+Package: python-doc8-doc
+Section: doc
+Architecture: all
+Depends: ${misc:Depends},
+         ${sphinxdoc:Depends},
+Description: style checker for Sphinx (or other) RST documentation - doc
+ Doc8 is an opinionated style checker for rst (with basic support for plain
+ text) styles of documentation.
+ .
+ This package contains the documentation.
