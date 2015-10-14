@@ -22,9 +22,11 @@ Build-Depends-Indep: python-chardet,
                      python-testtools,
                      python3-chardet,
                      python3-docutils,
+                     python3-nose,
                      python3-restructuredtext-lint,
                      python3-six,
                      python3-stevedore,
+                     python3-testtools,
 Standards-Version: 3.9.6
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-doc8.git
 Vcs-Git: git://anonscm.debian.org/openstack/python-doc8.git
