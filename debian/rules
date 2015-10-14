@@ -22,6 +22,8 @@ override_dh_install:
 			--root $(CURDIR)/debian/python3-doc8; \
 	done
 	rm -rf $(CURDIR)/debian/python*-doc8/usr/lib/python*/dist-packages/*.pth
+	mv $(CURDIR)/debian/python-doc8/usr/bin/doc8 $(CURDIR)/debian/python-doc8/usr/bin/python2-doc8
+	mv $(CURDIR)/debian/python3-doc8/usr/bin/doc8 $(CURDIR)/debian/python3-doc8/usr/bin/python3-doc8
 
 override_dh_auto_test:
 ifeq (,$(findstring nocheck, $(DEB_BUILD_OPTIONS)))

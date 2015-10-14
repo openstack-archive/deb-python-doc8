@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "remove" ] ; then
+	update-alternatives --remove doc8 /usr/bin/python3-doc8
+fi
+
+#DEBHELPER#
+
+exit 0
