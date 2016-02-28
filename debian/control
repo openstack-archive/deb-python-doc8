@@ -30,8 +30,8 @@ Build-Depends-Indep: python-chardet,
                      python3-stevedore,
                      python3-testtools,
 Standards-Version: 3.9.6
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-doc8.git
-Vcs-Git: git://anonscm.debian.org/openstack/python-doc8.git
+Vcs-Browser: https://anonscm.debian.org/cgit/openstack/python-doc8.git/
+Vcs-Git: https://anonscm.debian.org/git/openstack/python-doc8.git
 Homepage: http://git.openstack.org/cgit/stackforge/doc8
 
 Package: python-doc8
