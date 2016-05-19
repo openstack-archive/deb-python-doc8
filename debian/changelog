@@ -1,6 +1,7 @@
 python-doc8 (0.6.0-4) UNRELEASED; urgency=medium
 
   * Fixed VCS URLs (https).
+  * d/rules: Changed UPSTREAM_GIT to new URL
 
  -- Ondřej Nový <novy@ondrej.org>  Sun, 28 Feb 2016 15:36:47 +0100
 
